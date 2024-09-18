@@ -8,13 +8,13 @@ export default function Dictionary() {
   const [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0].meanings[0].definitions[0].definition);
-    setResults(response.data[0]);
+    setResults(response.data);
   }
 
   function search(event) {
     event.preventDefault();
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    const apiKey = "2fe0035acto21f1ea33794b41270a58f";
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
