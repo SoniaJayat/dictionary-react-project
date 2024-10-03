@@ -6,7 +6,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="title">
-          <header className="App-header"></header> <h1></h1>
+          <header className="App-header"></header>
+
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/164/original/blue_dictionary.png?1726683649"
             className="dictionary-logo img-fluid"
@@ -20,8 +21,20 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            This project was coded by Sonia Jayatheesan and is open-sourced on
-            GitHub
+            This project was coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/sonia-jayatheesan-9b928b268/?originalSubdomain=uk"
+              target="_blank"
+            >
+              Sonia Jayatheesan
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/SoniaJayat/dictionary-react-project"
+              target="_blank"
+            >
+              open-sourced on GitHub
+            </a>
           </small>
         </footer>
       </div>
