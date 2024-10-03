@@ -25,6 +25,7 @@ export default function App() {
             <a
               href="https://www.linkedin.com/in/sonia-jayatheesan-9b928b268/?originalSubdomain=uk"
               target="_blank"
+              rel="noreferrer"
             >
               Sonia Jayatheesan
             </a>{" "}
@@ -32,6 +33,7 @@ export default function App() {
             <a
               href="https://github.com/SoniaJayat/dictionary-react-project"
               target="_blank"
+              rel="noreferrer"
             >
               open-sourced on GitHub
             </a>
